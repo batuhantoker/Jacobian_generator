@@ -32,3 +32,9 @@ det(J) = 0
 - Workspace analysis
 - Design motion control algorithms
 - Visualization and simulation
+- Equation of motion
+The equation of motion can be written in terms of the Jacobian matrix J as follows:
+
+M(q) * J^T * dv + C(q, dq/dt) + G(q) = Tau
+
+where dv is the end effector velocity and J is the Jacobian matrix relating the joint velocities dq/dt to the end effector velocity dv.
