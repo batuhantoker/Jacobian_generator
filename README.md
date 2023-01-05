@@ -1,4 +1,4 @@
-# Jacobian_generator
+# Python jacobian generator
  a Python script that can generate the Jacobian matrix of any robot
  
 This script defines the number of links in the robot from user input, and then creates the transformation matrices for each link using rotation and translation matrices. 
