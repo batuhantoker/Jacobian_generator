@@ -1,5 +1,5 @@
 # Python jacobian generator
- a Python script that can generate the Jacobian matrix of any robot
+ a Python script that can generate the Jacobian matrix of any robot that is built with planar configuration of the joints. This means that axis of actuation (linear or revolute) should be same for all joints. For other configurations, this script should not be utilized.
  
 This script defines the number of links in the robot from user input, and then creates the transformation matrices for each link using rotation and translation matrices. 
 
